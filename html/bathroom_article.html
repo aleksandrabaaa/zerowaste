@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Make your own cosmetics</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../mystyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hkk4iif.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/articles.css">
+    <script src="https://kit.fontawesome.com/11b9e02d1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Burger menu starts-->
+    <header>
+        <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+        <nav class="navigation_container">
+            <span>
+                <a href="../index.html"><img src="../media/logo.png" alt="Logo image" class="logo_image"></a>
+            </span>
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <div class="menu navbar">
+                <div class="dropdown">
+                    <a href="/index.html" class="nav_link">HOME</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="/html/how_to_start.html" class="nav_link">HOW TO START</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="/html/kitchen.html" class="nav_link">KITCHEN</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="../html/bathroom.html" class="nav_link">BATHROOM</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+
+            <ul class="mobilemenu">
+                <li><a href="/index.html" class="nav_link">HOME</a></li>
+                <li><a href="/html/how_to_start.html" class="nav_link">HOW TO START</a></li>
+                <li><a href="/html/kitchen.html" class="nav_link">KITCHEN</a></li>
+                <li><a href="../html/bathroom.html" class="nav_link">BATHROOM</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Burger menu ends-->
+
+<!--Notification button-->
+    <button type="buton" onclick="document.getElementById('modal_id').style.display='block';" class="button button5 far fa-bell"></button>
+    <div id="modal_id" class="modal animate">
+        <div class="modal_content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <h1>Newsletter</h1>
+            Do you want to stay superhero and save the world? Stay updated signing up for our newsletter!
+
+            <div class="container">
+                <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+
+            <button type="button" onclick="document.getElementById('modal_id').style.display='none';" class="gotit">SUBSCRIBE</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('modal_id').style.display = 'block';
+    </script>
+    <!--<script>
+    var buttonanimation = document.getElementById('modal_id');
+    var secondanimation = buttonanimation.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight / 1.3;
+        if (secondanimation < screenPosition) {
+            buttonanimation.display.block;
+        }
+        window.addEventListener('scroll', scrollDown);
+    </script>-->
+    <main>
+<!--Breadcurmb-->
+        <p class="underline_subpage"><span class="breadcrumb">
+                <a href="../html/bathroom.html" class="breadcrumb_link">Bathroom</a> &gt; Make your cosmetics
+            </span>
+        </p>
+<!--Part with photo and opening text-->
+        <div class="headline1_container">
+
+            <img src="../media/main_cosmetics.jpg" alt="Wax photo" class="main_image"> <!--Photo's source: https://pixabay.com/-->
+
+            <div class="head_container">
+                <h3>MAKE YOUR OWN ECO-FRIENDLY COSMETICS</h3>
+                <p>Have you ever wonder what is in your favorite body cream? Or what makes your shampoo smells like a bubble gum? No? So maybe you should because sometimes you can find there the whole periodic table. The beauty industry is thriving sales machine that brings producers a huge profit. We’re not better: we can spend a fortune on tubes smaller than our pinkies than promise smooth and soft, shiny wrinkle and acne free complexion. Our skin is not only the biggest organ of our body but also very necessary one. It absorbs very easily what we put on it. Unfortunately among long lists of ingredients we will find small number of beneficial and good for our body components.</p>
+                <hr>
+                <p style="font-size: 15px;">28. october 2019</p>
+                <p style="font-size: 15px;">By Aleksandra Wytulany</p>
+                <a href="#" class="icon fab fa-instagram fa-lg" style="margin: 15px 5px 0 0;"></a>
+                <a href="#" class="icon fab fa-facebook fa-lg" style="margin: 15px 5px 0 0;"></a>
+                <a href="#" class="icon fab fa-youtube fa-lg" style="margin: 15px 5px 0 0;"></a>
+            </div>
+        </div>
+<!--Article-->
+        <div class="wrapper_kitchen">
+            <section class="howtoreduce_container">
+                <p>Our skin is not only the biggest organ of our body but also very necessary one. It absorbs very easily what we put on it. Unfortunately among long lists of ingredients we will find small number of beneficial and good for our body components. 1,4-dioxane Dioksan, AHA alpha hydroxy acid, Benzalkonium Chloride or BHT Butylated Hydroxytoluene sound weird? And it should. Unfortunately we’re usually not aware what’s inside our favorite both make-up and beauty products. Such ingredients negatively influence our bloodstream and provoke allergies, rashes or itches. What’s more, plastic packages and containers aren’t reusable and hard to break down.</p><br>
+                <p>In this article I would like to show you how in quick and easy way you can prepare natural, eco-friendly and chemical-free cosmetics that will improve your beauty and support your wallet. So, what are we waiting for?</p><br>
+                <h3>Coffee scrub for your body</h3>
+                <p>Have you drunk coffee in the morning? Great! Don’t throw the grounds as you can easily use them in your evening bathroom routine.<br>
+                    Prepare :<br>
+                    o clean, glass jar without any labels<br>
+                    o spoon or something to mix ingredients<br>
+                    o coffee grounds<br>
+                    o cinnamon<br>
+                    o oil of your choice (ex. olive oil, coconut oil)</p><br>
+                <h5>How to turn it into scrub?</h5>
+                <p>Just mix everything in glass jar and enjoy your new cosmetic. Warning: after your treatment the whole bathroom will smell like the best Italian café.</p><br>
+                <h3>Face tonner for every skin</h3>
+                <p>Maybe you’re a tea lover and you cannot imagine the perfect afternoon without a cup of hot cup of English tea? Or maybe you drink herbal teas as a remedy for pains and sicknesses? Here you can find out how to make a herbal face tonner in less than a minute!<br>
+                    Prepare:<br>
+                    o spray bottle or glass jar<br>
+                    o a bag of herbal tea: chamomile, green tea or mint tea</p><br>
+                <h5>How to turn it into face toner?</h5>
+                <p>Infuse your tea according to the instructions on the package. Wait until it’s cold and use immediately on your face. Advice: try to avoid cotton pads to reduce the waste.</p><br>
+                <h3>Facial mask</h3>
+                <p>Are you ready to prepare the most delicious face mask? It’s nutritional, sweet and student-budget friendly. Believe me, you have all the ingredients in your kitchen.<br>
+                    Prepare:<br>
+                    o small bowl<br>
+                    o spoon or something to mix the ingredients<br>
+                    o 1 tablespoon of honey<br>
+                    o 2 tablespoon of oats<br>
+                    o a pinch of turmeric</p><br>
+                <h5>How to turn it into facial mask?</h5>
+                <p>Mix everything in a small bowl and put on your face for 15 minutes. Then wash your face with cold water and use a herbal tonner.</p>
+                <img src="/media/cosmetic-2357981_1920.jpg" alt="Wax" class="down_photo"> <!--Photo's source: https://pixabay.com/-->
+            </section>
+<!--End of the article-->
+        </div>
+        </main>
+</body></html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>How to start</title>
+    <link rel="stylesheet" href="../mystyle.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/htw.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hkk4iif.css">
+    <script src="https://kit.fontawesome.com/11b9e02d1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Burger menu starts-->
+    <header>
+        <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+        <nav class="navigation_container">
+            <span>
+                <a href="../index.html"><img src="../media/logo.png" alt="Logo image" class="logo_image"></a>
+            </span>
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <div class="menu navbar">
+                <div class="dropdown">
+                    <a href="../index.html" class="nav_link">HOME</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="/html/how_to_start.html" class="nav_link">HOW TO START</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="/html/kitchen.html" class="nav_link">KITCHEN</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="../html/bathroom.html" class="nav_link">BATHROOM</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+
+            <ul class="mobilemenu">
+                <li><a href="/index.html" class="nav_link">HOME</a></li>
+                <li><a href="/html/how_to_start.html" class="nav_link">HOW TO START</a></li>
+                <li><a href="/html/kitchen.html" class="nav_link">KITCHEN</a></li>
+                <li><a href="/html/bathroom.html" class="nav_link">BATHROOM</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Burger menu ends-->
+
+<!--Notification button-->
+    <button type="buton" onclick="document.getElementById('modal_id').style.display='block';" class="button button5 far fa-bell"></button>
+    <div id="modal_id" class="modal animate">
+        <div class="modal_content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <h1>Newsletter</h1>
+            Do you want to stay superhero and save the world? Stay updated signing up for our newsletter!
+
+            <div class="container">
+                <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+
+            <button type="button" onclick="document.getElementById('modal_id').style.display='none';" class="gotit">SUBSCRIBE</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('modal_id').style.display = 'block';
+    </script>
+
+<!--Main content-->
+    <main id="maincontent">
+    <section class="main_headline">
+            <header>
+                <h1>HOW TO START</h1>
+            </header>
+            <br>
+            <p class="subtext">Beginnings can be tough but we prepared 9 simple ways to help you start your journey with zero-waste motion</p>
+        </section>
+    <div class="photos_tiles">
+        <section class="content">
+            <header style="height: 300px;">
+                <img src="../media/shopping.jpg" alt="Shopping photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+                <h3 class="photo_text">SHOPPING</h3>
+            </header >
+            <p class="photo_text">Remember to always bring your material or reusable bag with you to the shop. You can also take some containers, glass jars or paper bags. And try to buy package-free products.</p>
+        </section>
+        <section class="content">
+            <header style="height: 300px;">
+                <img src="../media/wooden_cutlery.jpg" alt="Cutlery photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+                <h3 class="photo_text">PAPER TOWELS</h3>
+            </header>
+            <p class="photo_text">Try to avoid using disposable, paper towels. Instead use material towels that you can wash and use for longer.</p>
+        </section>
+        <section class="content">
+            <header style="height: 300px;">
+                <img src="../media/bottle.jpg" alt="Bottle photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+                <h3 class="photo_text">DISPOSABLE BOTTLES</h3>
+            </header>
+            <p class="photo_text">Bring your own reusable or glass bottle with you to keep off plastic bottles. You can also accessorize with insulated cup so you don’t need to take a new cup every time when you’re in your favorite café.</p>
+        </section>
+    </div>
+
+    <div class="photos_tiles">
+        <section class="content">
+            <header style="height: 300px;">
+                <img src="../media/bric-a-brac.jpg" alt="Diy photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+                <h3 class="photo_text">BRIC-A-BRAC</h3>
+            </header>
+            <p class="photo_text">Instead of throwing out your old clothes or furniture give them a new life. Maybe you can make a new pillow case from your old sweater? Or organize a garage sale for your neighbors.</p>
+        </section>
+        <section class="content">
+            <header style="height: 330px;">
+                <img src="../media/plan.jpg" alt="Plan photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+                <h3 class="photo_text">PLAN IS ALWAYS A GOOD PLAN</h3>
+            </header>
+            <p class="photo_text">Every time you go shopping make a list: what do you actually need. That way you’ll avoid buying products you’ve already have and save time and money. Maybe you don’t need staff that will one day end up in landfill?</p>
+        </section>
+        <section class="content">
+            <header style="height: 300px;">
+                <img src="../media/house.jpg" alt="House photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+                <h3 class="photo_text">SMART HOUSE</h3>
+            </header>
+            <p class="photo_text">Use daylight as long as it’s possible instead turning on the light on 14 o’clock. Turn off all electrical appliances when you’re not using them or you’re going to sleep. When you go on holidays use ‘holiday mode’ in your fridge or freezer.</p>
+        </section>
+    </div>
+    <div class="photos_tiles">
+        <section class="content">
+            <header style="height: 300px;">
+                <img src="../media/recycle.jpg" alt="Recycle photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+                <h3 class="photo_text">RECYCLE WELL</h3>
+            </header>
+            <p class="photo_text">Recycle is good but it is not a solution of reducing you waste. Reduce the amount you recycle by reducing the amount you consume.</p>
+        </section>
+        <section class="content">
+        <header style="height: 300px;">
+            <img src="../media/burger.jpg" alt="Burger photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+            <h3 class="photo_text">FORGET ABOUT FAST FOOD</h3>
+            </header>
+            <p class="photo_text">Have you every been to one of the best-known fast-food restaurants? Then you know imagine how much packages are used. Plastic cup for cola, box for hot-wings and bags for big-mac with fires. Prepare your own lunch at home and bring it with you in your reusable container.</p>
+        </section>
+        <section class="content">
+        <header style="height: 330px;">
+            <img src="../media/kitchen_cloth.jpg" alt="Kitchen photo" class="tips_image"> <!--Photo's source: https://pixabay.com/-->
+            <h3 class="photo_text">WE SAY NO TO PLASTIC STRAW AND CUTLERY</h3>
+            </header>
+            <p class="photo_text">The same as with containers or bottles – avoid taking plastic straws, forks or spoons in take-away restaurants. Reusable ones don’t take a lot of space and can help the planet.</p>
+        </section>
+    </div>
+    </main>
+<!--End of the main content-->
+</body>
+
+</html>

@@ -29,6 +29,12 @@ hr {
 .photo {
     max-width: 40%;
     float: left;
+
+
+}
+.photo:hover {
+    -webkit-filter: grayscale(0);
+
 }
 
 .wrapper {
@@ -265,3 +271,10 @@ font-style: normal;
     }
 }
 
+.whatever img {
+    -webkit-transition: -webkit-filter 500ms linear;
+    -webkit-filter: grayscale(1);
+}
+.whatever:hover img {
+    -webkit-filter: grayscale(0);
+}

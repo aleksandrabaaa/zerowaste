@@ -33,7 +33,6 @@ header {
 
 .video {
     max-width: 100%;
-    margin-top: 25px;
 }
 
 .banner_container {
@@ -111,6 +110,9 @@ header {
     margin-top: 200px;
     margin-bottom: 90px;
 }
+.articles_container img {
+    transition: transform .5s ease;
+}
 
 .artcontent_container {
     font-family: essonnes-display, serif;
@@ -160,6 +162,7 @@ header {
     text-decoration: none;
     font-family: essonnes-display, serif;
 }
+
 
 .navigation_container {
     background-color: white;

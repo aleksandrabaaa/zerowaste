@@ -221,9 +221,6 @@ input[type=text] {
     justify-content: space-around;
     text-align: center;
     align-items: center;
-
-
-
 }
 
 .head_container {
@@ -241,13 +238,20 @@ font-style: normal;
 
 }
 
-@media only screen and (min-width: 610px) {
+@media only screen and (max-width: 610px) {
     .headline_container {
         flex-direction: row;
         align-items: baseline;
         flex-wrap: wrap;
     }
+    .headline {
+        font-size: 30px;
     }
+    .headline_text {
+        font-size: 16px;
+    }
+    }
+
 @media only screen and (max-width: 768px) {
     .headline1_container {
         display: block;

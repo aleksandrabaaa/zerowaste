@@ -51,19 +51,19 @@ header {
     z-index: 1;
     width: 75%;
     background-color: white;
-    height: 60%;
+    height: 22vw;
     text-align: center;
+    align-items: center;
     margin-top: 10px;
 }
 
 .header_headline {
-    font-size: 30px;
+    font-size: 4.5vw;
     text-align: center;
     margin-top: 5vw;
 }
 
 .header_text {
-    margin-top: 2vw;
     font-size: 1.5vw;
     align-content: center;
     font-family: essonnes-display, serif;
@@ -137,13 +137,13 @@ header {
     font-family: essonnes-display, serif;
     font-weight: 300;
     font-style: normal;
+    margin-bottom: 10px;
 }
 
 .readmore_link {
     text-decoration: none;
     font-size: 16px;
     color: black;
-    margin-left: 290px;
 }
 
 .readmore_link:hover {
@@ -273,4 +273,17 @@ input[type=submit] {
 
 input[type=submit]:hover {
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header_container {
+        height: 30vw;
+    }
+    .header_headline {
+        margin-top: 30px;
+    }
+    .readmore_link {
+
+    }
 }

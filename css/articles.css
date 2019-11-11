@@ -273,7 +273,7 @@ font-style: normal;
         margin: auto;
     }
 }
-
+/*Color animation on photos*/
 .whatever img {
     -webkit-transition: -webkit-filter 500ms linear;
     -webkit-filter: grayscale(1);
